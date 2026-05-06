@@ -1,6 +1,6 @@
 # C++ Calculator
 
-A fully functional command-line calculator written in C++17. Parses and evaluates multi-value arithmetic expressions with correct operator precedence using a hand-written recursive-descent parser.
+A command-line calculator written in C++17 featuring a hand-written recursive-descent parser and operator precedence handling. Parses and evaluates multi-value arithmetic expressions with correct operator precedence using a hand-written recursive-descent parser.
 
 ```
 > 3 + 9 * 99
@@ -17,7 +17,7 @@ A fully functional command-line calculator written in C++17. Parses and evaluate
 
 ## Features
 
-- **Multi-value expressions** — chain as many numbers and operators as you like
+- **Supports chained arithmetic expressions** — chain as many numbers and operators as you like
 - **Correct operator precedence** — `*` and `/` evaluate before `+` and `-`
 - **Parentheses** — override precedence with `(` and `)`
 - **Unary minus** — negative numbers and negated sub-expressions (`-5`, `-(3+4)`)
@@ -133,10 +133,3 @@ Commands
 
 > quit
 Goodbye!
-```
-
----
-
-## License
-
-MIT
