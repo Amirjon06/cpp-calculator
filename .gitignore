@@ -5,7 +5,6 @@ cmake-build-*/
 
 # Compiled binaries
 calculator
-tests
 *.exe
 *.out
 *.app
